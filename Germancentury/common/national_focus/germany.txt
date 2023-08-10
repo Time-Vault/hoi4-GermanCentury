@@ -1,0 +1,57 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+	### EXPLANATORY DECISIONS (You can delete them and use the ones bellow if you don't want my notes there :-))
+	focus = {
+		# ID of the FOCUS (must be always unique!)
+		id = AFK_EXPL_one
+		# ICON of the focus
+		icon = GFX_thisgfxiswrong
+		
+		# POSITIONING (X = left / right, Y = up / down)
+		x = 0
+		y = 0
+		
+		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
+		cost = 10
+		
+		# When is this focus AVAILABLE - what conditions you must satisfy in order to select this FOCUS
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		
+		# You get this when you complete this FOCUS
+		completion_reward = {
+			# EFFECTS listed here
+			
+			
+		}
+		
+		# How likely is AI to select this FOCUS
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	
+}
